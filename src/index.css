@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.layout_maxWidth {
+  max-width: 80%;
+  margin: auto;
+  min-height: 95vh;
+}
+.background_image {
+  background: url('./images/banner.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.getPlayers_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.ant-card-bordered {
+  border: 1px solid #dedddd;
+  box-shadow: 13px 10px 14px -9px rgba(0, 0, 0, 0.57);
+}
+
+.ant-table-content {
+  overflow-y: auto;
+}
+
+.hideHeader thead {
+  display: none;
+}
+
+.ant-image-dp {
+  border: 5px solid white;
+  margin: 12px;
+}
+
+.ant-card-grid {
+  text-align: left;
+  padding: 8px;
+}
+
+.ant-menu {
+  margin-bottom: 24px;
+}
